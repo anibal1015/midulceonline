@@ -24,6 +24,8 @@
       "confirmar": "1234",
       "direccón": "KR 48F No 68D 15 Sur"
     },
+    
+
     {
       "id": 5,
       "nombre": "Danna Velandia",
@@ -127,6 +129,13 @@
       "email": "karen@gmail.com",
       "password": "1234567",
       "id": 31
+    },
+    {
+      "id": 32,
+      "nombre": "alberto",
+      "email": "alberto1051@gmail.com",
+      "password": "123123"
+      
     }
   ],
   "usuarios": [

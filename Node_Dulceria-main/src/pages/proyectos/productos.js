@@ -14,33 +14,33 @@ const Productos = () => {
 
     {
       id: 2,
-      nombre: " Artesanal",
-      cantidad: 1,
-      valor: 3000,
+      nombre: "Glacitas",
+      cantidad: 5,
+      valor: 1000,
     },
     {
       id: 3,
-      nombre: "Polet",
+      nombre: "Yoqueta",
       cantidad: 1,
-      valor: 5000,
+      valor: 8000,
     },
     {
       id: 4,
-      nombre: "coffe",
+      nombre: "Quipitos",
       cantidad: 1,
-      valor: 22000,
+      valor: 500,
     },
     {
       id: 5,
-      nombre: "Bocatto",
+      nombre: "Bocadillo",
       cantidad: 8,
       valor: 5000,
     },
     {
       id: 6,
-      nombre: "Choco Mami",
+      nombre: "Gala",
       cantidad: 4,
-      valor: 3000,
+      valor: 2000,
     },
   ]);
   const cargarProyectos = async () => {

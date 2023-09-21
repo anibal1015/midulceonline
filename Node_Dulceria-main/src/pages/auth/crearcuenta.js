@@ -155,12 +155,12 @@ const CrearCuenta = () => {
       <div className="hold-transition login-page">
           <div className="login-box">
               <div className="login-logo">
-                  <Link to="#"><b>Crear</b> cuenta</Link>
+                  <Link to="#"><b>Pedido</b> </Link>
               </div>
 
               <div className="card">
                   <div className="card-body login-card-body">
-                      <p className="login-box-msg">Bienvenido, ingrese sus credenciales</p>
+                      <p className="login-box-msg">ingrese sus datos</p>
                       <form onSubmit={onSubmit}>
   <div className="input-group mb-3">
       <input type="text" className="form-control" placeholder="Nombre" id="nombre" name="nombre" value={nombre} onChange={onChange} required />
@@ -207,10 +207,10 @@ const CrearCuenta = () => {
   
   <div className="social-auth-links text-center mb-3">
       <button type="submit" className="btn btn-block btn-primary">
-          Crear
+          Ingresar
       </button>
       <Link to="/" className="btn btn-block btn-danger">
-          Regresar 
+          Login
       </Link>
   </div>
 </form>

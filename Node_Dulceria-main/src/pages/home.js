@@ -12,9 +12,9 @@ const Home = () => {
             <div className="content-wrapper">
 
                 <ContentHeader
-                    titulo={"Heladeria"}
+                    titulo={"Dulces colombianos"}
                     breadCrumb1={"Inicio"}
-                    breadCrumb2={""}
+                    breadCrumb2={"Dashboard"}
                     ruta1={"/home"}
                 />
 
@@ -26,13 +26,18 @@ const Home = () => {
                                             <div className="card-body box-profile">
                                                 <div className="text-center">
                                                     <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img1.jfif"
+                                                        src="../../dist/img/355_0.jpg"
                                                         alt="User profile picture" />
                                                 </div>
-                                                <h3 className="profile-username text-center">Frutos Rojos -tarro </h3>
-                                                <p className="text-muted text-center">$10,000</p>
-                                                <Link to={"/crearcuenta"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
+                                                <h3 className="profile-username text-center">Glacitas </h3>
+                                                <p className="text-muted text-center">$1,000</p>
+                                                <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-3 col-6">
+                                        <div className="card card-primary card-outline">
+                                            
                                         </div>
                                     </div>
                                     <div className="col-lg-3 col-6">
@@ -40,11 +45,11 @@ const Home = () => {
                                             <div className="card-body box-profile">
                                                 <div className="text-center">
                                                     <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img2.jfif"
-                                                        alt="User profile picture" height={10} width={10}/>
+                                                        src="../../dist/img/QUIPITOS_F.jpg"
+                                                        alt="User profile picture"height={10} width={10} />
                                                 </div>
-                                                <h3 className="profile-username text-center">Artesanal</h3>
-                                                <p className="text-muted text-center">$3,000</p>
+                                                <h3 className="profile-username text-center">Quipitos</h3>
+                                                <p className="text-muted text-center">500</p>
                                                 <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
                                             </div>
                                         </div>
@@ -54,10 +59,10 @@ const Home = () => {
                                             <div className="card-body box-profile">
                                                 <div className="text-center">
                                                     <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img3.jfif"
-                                                        alt="User profile picture"height={10} width={10} />
+                                                        src="../../dist/img/descarga.jfif"
+                                                        alt="User profile picture" height={10} width={10}/>
                                                 </div>
-                                                <h3 className="profile-username text-center">Polet</h3>
+                                                <h3 className="profile-username text-center">Bocadillo</h3>
                                                 <p className="text-muted text-center">$5,000</p>
                                                 <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
                                             </div>
@@ -68,11 +73,11 @@ const Home = () => {
                                             <div className="card-body box-profile">
                                                 <div className="text-center">
                                                     <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img4.jfif"
-                                                        alt="User profile picture" height={10} width={10}/>
+                                                        src="../../dist/img/gala.jpg"
+                                                        alt="User profile picture"height={10} width={10} />
                                                 </div>
-                                                <h3 className="profile-username text-center">Coffee</h3>
-                                                <p className="text-muted text-center">$3,000</p>
+                                                <h3 className="profile-username text-center">Gala</h3>
+                                                <p className="text-muted text-center">$2,000</p>
                                                 <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
                                             </div>
                                         </div>
@@ -82,10 +87,38 @@ const Home = () => {
                                             <div className="card-body box-profile">
                                                 <div className="text-center">
                                                     <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img5.jfif"
+                                                        src="../../dist/img/galletas-festival-17_800x.jpg"
+                                                        alt="User profile picture" height={10} width={10}/>
+                                                </div>
+                                                <h3 className="profile-username text-center">Festival Chocolate x12</h3>
+                                                <p className="text-muted text-center">$7,000</p>
+                                                <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-3 col-6">
+                                        <div className="card card-primary card-outline">
+                                            <div className="card-body box-profile">
+                                                <div className="text-center">
+                                                    <img className="profile-user-img img-fluid"
+                                                        src="../../dist/img/malpa.jfif"
+                                                        alt="User profile picture" height={10} width={10}/>
+                                                </div>
+                                                <h3 className="profile-username text-center">Chocomelo</h3>
+                                                <p className="text-muted text-center">$10,000</p>
+                                                <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-3 col-6">
+                                        <div className="card card-primary card-outline">
+                                            <div className="card-body box-profile">
+                                                <div className="text-center">
+                                                    <img className="profile-user-img img-fluid"
+                                                        src="../../dist/img/dulcescafe.jpg"
                                                         alt="User profile picture"height={10} width={10} />
                                                 </div>
-                                                <h3 className="profile-username text-center">Bocatto</h3>
+                                                <h3 className="profile-username text-center">coffee light</h3>
                                                 <p className="text-muted text-center">$6,000</p>
                                                 <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
                                             </div>
@@ -96,11 +129,11 @@ const Home = () => {
                                             <div className="card-body box-profile">
                                                 <div className="text-center">
                                                     <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img6.jfif"
+                                                        src="../../dist/img/chocobreak.jpg"
                                                         alt="User profile picture" height={10} width={10}/>
                                                 </div>
-                                                <h3 className="profile-username text-center">Vabilo vasito</h3>
-                                                <p className="text-muted text-center">$4,000</p>
+                                                <h3 className="profile-username text-center">Choco Break</h3>
+                                                <p className="text-muted text-center">$6,000</p>
                                                 <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
                                             </div>
                                         </div>
@@ -110,11 +143,11 @@ const Home = () => {
                                             <div className="card-body box-profile">
                                                 <div className="text-center">
                                                     <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img7.jfif"
+                                                        src="../../dist/img/nucita.jpg"
                                                         alt="User profile picture" height={10} width={10}/>
                                                 </div>
-                                                <h3 className="profile-username text-center">Choco Mami</h3>
-                                                <p className="text-muted text-center">$3,000</p>
+                                                <h3 className="profile-username text-center">Nucita</h3>
+                                                <p className="text-muted text-center">$1,000</p>
                                                 <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
                                             </div>
                                         </div>
@@ -124,53 +157,11 @@ const Home = () => {
                                             <div className="card-body box-profile">
                                                 <div className="text-center">
                                                     <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img8.jfif"
-                                                        alt="User profile picture"height={10} width={10} />
-                                                </div>
-                                                <h3 className="profile-username text-center">Tarro de Chocolate</h3>
-                                                <p className="text-muted text-center">$10,000</p>
-                                                <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-3 col-6">
-                                        <div className="card card-primary card-outline">
-                                            <div className="card-body box-profile">
-                                                <div className="text-center">
-                                                    <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img9.jfif"
+                                                        src="../../dist/img/huevo-kinder.png"
                                                         alt="User profile picture" height={10} width={10}/>
                                                 </div>
-                                                <h3 className="profile-username text-center">Choco Cono </h3>
-                                                <p className="text-muted text-center">$3,000</p>
-                                                <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-3 col-6">
-                                        <div className="card card-primary card-outline">
-                                            <div className="card-body box-profile">
-                                                <div className="text-center">
-                                                    <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img10.jfif"
-                                                        alt="User profile picture" height={10} width={10}/>
-                                                </div>
-                                                <h3 className="profile-username text-center">mexcla</h3>
+                                                <h3 className="profile-username text-center">Huevo Kinder</h3>
                                                 <p className="text-muted text-center">$5,000</p>
-                                                <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-3 col-6">
-                                        <div className="card card-primary card-outline">
-                                            <div className="card-body box-profile">
-                                                <div className="text-center">
-                                                    <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img11.jfif"
-                                                        alt="User profile picture" height={10} width={10}/>
-                                                </div>
-                                                <h3 className="profile-username text-center">GO Yourt</h3>
-                                                <p className="text-muted text-center">$7,000</p>
                                                 <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
                                             </div>
                                         </div>
@@ -181,12 +172,12 @@ const Home = () => {
                                             <div className="card-body box-profile">
                                                 <div className="text-center">
                                                     <img className="profile-user-img img-fluid"
-                                                        src="../../dist/img/img12.jfif"
+                                                        src="../../dist/img/cocosete.jpg"
                                                         alt="User profile picture"height={10} width={10} />
                                                 </div>
-                                                <h3 className="profile-username text-center">Sandwich</h3>
+                                                <h3 className="profile-username text-center">Cocosete</h3>
                                                 <p className="text-muted text-center">$5,000</p>
-                                                <Link to={"/crearcuenta"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
+                                                <Link to={"/pedidos"} className="btn btn-primary btn-block"><b>Comprar</b></Link>
                                             </div>
                                         </div>
                                     </div>

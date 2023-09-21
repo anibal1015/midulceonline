@@ -112,11 +112,11 @@ const Pedidos = () => {
     <div className="hold-transition register-page">
 <div className="register-box">
   <div className="register-logo">
-  <Link to={"#"}><b>Registro de Pedido</b></Link>
+  <Link to={"#"}><b>Pedido</b></Link>
   </div>
   <div className="card">
     <div className="card-body register-card-body">
-      <p className="login-box-msg">Bienvenido ingrese sus datos</p>
+      <p className="login-box-msg">ingrese sus datos</p>
 
       <form onSubmit={onSubmit}>
           <div className="input-group mb-3">
@@ -156,7 +156,7 @@ const Pedidos = () => {
         <div className="input-group mb-3">
           <input type="text" 
           className="form-control" 
-          placeholder="Lugar de entrega" 
+          placeholder="direccion" 
           id="entrega"
           name="entrega"
           value={entrega}
@@ -173,7 +173,7 @@ const Pedidos = () => {
         <div className="input-group mb-3">
           <input type="text" 
           className="form-control" 
-          placeholder="Confirmar su lugar de entrega" 
+          placeholder="Confirmar direccion" 
           id="confiEntrega"
           name="confiEntrega"
           value={confiEntrega}
