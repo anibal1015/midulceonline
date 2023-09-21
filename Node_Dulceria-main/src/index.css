@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  display: flex; /* Convierte al contenedor en un contenedor flex */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+}
+
+.card.card-primary.card-outline {
+  flex: 1; /* Cada tarjeta toma un espacio igual en el contenedor */
+  border: 1px solid #ddd;
+  padding: 10px;
+}

@@ -1,0 +1,199 @@
+{
+  "Clientes": [
+    {
+      "id": 1,
+      "nombre": "tiago",
+      "email": "tiago02@gmail.com",
+      "password": "123456789",
+      "confirmar": "123456789",
+      "direccón": "KR 48F"
+    },
+    {
+      "id": 2,
+      "nombre": "Vanesa",
+      "email": "Vane2@gmail.com",
+      "password": "1234",
+      "confirmar": "1234",
+      "direccón": "KR 48F No 68D 15 Sur"
+    },
+    {
+      "id": 3,
+      "nombre": "David",
+      "email": "David02@2gmail.comm",
+      "password": "12345677",
+      "confirmar": "1234",
+      "direccón": "KR 48F No 68D 15 Sur"
+    },
+    {
+      "id": 5,
+      "nombre": "Danna Velandia",
+      "email": "Danna@gmail.com",
+      "password": "20062",
+      "confirmar": "1234",
+      "direccón": "KR 435 No 736 50 Norte"
+    },
+    {
+      "id": 99,
+      "nombre": "daniela",
+      "email": "dani1@gmail.com",
+      "password": "123456789",
+      "confirmar": "123456789",
+      "direccón": "KR 34 #23"
+    },
+    {
+      "email": "dani1@gmail.com",
+      "password": "123456789",
+      "id": 99
+    },
+    {
+      "email": "brigithecarolina02@gmail.com",
+      "password": "1023371400",
+      "id": 17
+    },
+    {
+      "nombre": "Brigithe",
+      "email": "brigithecarolina02@gmail.com",
+      "password": "1023371400",
+      "confirmar": "10233714000",
+      "id": 18
+    },
+    {
+      "nombre": "Alexandra",
+      "email": "brigithecarolina02@gmail.com",
+      "password": "1023371400",
+      "id": 19
+    },
+    {
+      "email": "brigithecarolina02@gmail.com",
+      "password": "1023371400",
+      "id": 20
+    },
+    {
+      "email": "brigithecorrea80@gmail.com",
+      "password": "12345678",
+      "id": 21
+    },
+    {
+      "email": "brigithecarolina02@gmail.com",
+      "password": "1234567",
+      "id": 22
+    },
+    {
+      "nombre": "Danna",
+      "email": "brigithe20066@gmail.com",
+      "password": "1234567",
+      "id": 23
+    },
+    {
+      "email": "trianac779@gmail.com",
+      "password": "1023371455",
+      "id": 24
+    },
+    {
+      "nombre": "Danna",
+      "email": "danna@gmail.com",
+      "password": "1234567",
+      "id": 25
+    },
+    {
+      "nombre": "Danna",
+      "email": "danna@gmail.com",
+      "password": "1234567",
+      "id": 26
+    },
+    {
+      "email": "danna@gmail.com",
+      "password": "1234567",
+      "id": 27
+    },
+    {
+      "email": "caro@gmail.com",
+      "password": "111111111",
+      "id": 28
+    },
+    {
+      "email": "brigithecarolina02@gmail.com",
+      "password": "11111111111111",
+      "id": 29
+    },
+    {
+      "nombre": "Karen",
+      "email": "karen02@gmail.com",
+      "password": "123456789",
+      "id": 30
+    },
+    {
+      "nombre": "Karenn",
+      "email": "karen@gmail.com",
+      "password": "1234567",
+      "id": 31
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 2,
+      "nombreusu": "santi",
+      "email": "santi@2gmail.comm",
+      "password": "12677",
+      "nombreproduc": "nucitaa",
+      "cantidad": 3,
+      "valor": 12000
+    },
+    {
+      "id": 3,
+      "nombreusu": "Narly Sanchez",
+      "email": "karen@2gmail.comm",
+      "password": "123456",
+      "nombreproduc": "bombom",
+      "cantidad": 3,
+      "valor": 12000
+    },
+    {
+      "id": 5,
+      "nombreusu": "Brigithe Correa",
+      "email": "Brigithe@2gmail.comm",
+      "password": "1234567",
+      "nombreproduc": "bombom",
+      "cantidad": 3,
+      "valor": 12000
+    }
+  ],
+  "productos": [
+    {
+      "id": 5,
+      "nombre": "nucita",
+      "cantidad": 3,
+      "valor": 32000
+    },
+    {
+      "id": 6,
+      "nombre": "gaseosa",
+      "cantidad": 8,
+      "valor": 3100
+    },
+    {
+      "id": 2,
+      "nombre": "paleta",
+      "cantidad": 5,
+      "valor": 3000
+    },
+    {
+      "id": 3,
+      "nombre": "gomitas",
+      "cantidad": 3,
+      "valor": 22000
+    },
+    {
+      "id": 4,
+      "nombre": "bombombun",
+      "cantidad": 8,
+      "valor": 2100
+    },
+    {
+      "id": 1,
+      "nombre": "chococono",
+      "cantidad": 4,
+      "valor": 2000
+    }
+  ]
+}
